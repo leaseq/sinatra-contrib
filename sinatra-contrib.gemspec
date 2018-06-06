@@ -1,6 +1,7 @@
 # -*- encoding: utf-8 -*-
 
-version = File.read(File.expand_path("../../VERSION", __FILE__)).strip
+# version = File.read(File.expand_path("../../VERSION", __FILE__)).strip
+version = '2.0.2'
 
 Gem::Specification.new do |s|
   s.name        = "sinatra-contrib"
